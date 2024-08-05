@@ -63,4 +63,31 @@ VALUES
 ('Olivia', 'Gray', '1986-07-09', 'Female', 6, '567-890-1234', 'olivia.gray@example.com', '1212 Spruce St'),
 ('Paul', 'Hughes', '1984-10-31', 'Male', 5, '678-901-2345', 'paul.hughes@example.com', '1313 Pine St'),
 ('Quinn', 'Jackson', '1989-11-15', 'Female', 2, '789-012-3456', 'quinn.jackson@example.com', '1414 Maple St'),
-('Ryan', 'Kim', '1978-02-18', 'Male', 3, '890-123-4567', 'ryan.kim@example.com', '1205 Oakland St');
+(6, 'Ryan', 'Kim', '1978-02-18', 'Male', 3, '890-123-4567', 'ryan.kim@example.com', '1515 Oak St'),
+(17, 'Sandra', 'Long', '1985-09-20', 'Female', 4, '901-234-5678', 'sandra.long@example.com', '1616 Cedar St'),
+(18, 'Tom', 'Harris', '1990-03-12', 'Male', 1, '012-345-6789', 'tom.harris@example.com', '1717 Birch St'),
+(19, 'Ursula', 'King', '1988-06-14', 'Female', 2, '123-456-7890', 'ursula.king@example.com', '1818 Spruce St'),
+(20, 'Victor', 'Lewis', '1992-12-21', 'Male', 6, '234-567-8901', 'victor.lewis@example.com', '1919 Pine St');
+
+INSERT INTO Transfusions (RecipientID, DonationID, TransfusionDate)
+VALUES 
+(1, 1, '2024-08-02'),
+(2, 2, '2024-08-03'),
+(3, 3, '2024-08-04'),
+(4, 4, '2024-08-05'),
+(5, 5, '2024-08-06'),
+(6, 6, '2024-08-07'),
+(7, 7, '2024-08-08'),
+(8, 8, '2024-08-09'),
+(9, 9, '2024-08-10'),
+(10, 10, '2024-08-11'),
+(11, 11, '2024-08-12'),
+(12, 12, '2024-08-13'),
+(13, 13, '2024-08-14'),
+(14, 14, '2024-08-15'),
+(15, 15, '2024-08-16'),
+(16, 16, '2024-08-17'),
+(17, 17, '2024-08-18'),
+(18, 18, '2024-08-19'),
+(19, 19, '2024-08-20'),
+(20, 20, '2024-08-21');
